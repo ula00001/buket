@@ -1,13 +1,14 @@
-import {Container} from "@mui/material";
+import { Container } from "@mui/material";
+import TopBar from "./TopBar";
+import Flowers from "./Flowers";
 
 const Index = () => {
-
-    return (
-        <Container maxWidth="xl">
-
-            <h1>ssd</h1>
-        </Container>
-    )
-}
+	return (
+		<Container maxWidth="lg">
+			<TopBar />
+			<Flowers />
+		</Container>
+	);
+};
 
 export default Index;
